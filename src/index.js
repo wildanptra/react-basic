@@ -1,16 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Lifecycle from './Lifecycle';
-// import Map from './Map';
-// import StateProps from './StateProps';
-// import Variable from './Variable';
-// import App from './App';
-// import Navbar from './Navbar';
+// import App from './basic/App';
+// import Navbar from './basic/Navbar';
+// import Variable from './basic/Variable';
+// import StateProps from './basic/StateProps';
+// import Map from './basic/Map';
+// import Lifecycle from './basic/Lifecycle';
+
+// Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import Crud from './crud';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Lifecycle />    
+    <Crud />
   </React.StrictMode>
 );
 
+ 
